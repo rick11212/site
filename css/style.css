@@ -119,7 +119,7 @@ body {
 .list2 li:nth-child(2):hover::before {
    content: "";
    display: inline-block;
-   width: 50px;
+   width: 30px;
    height: 20px;
    background: url(../img/icons/check_icon_95.png) no-repeat;
 }
@@ -169,28 +169,3 @@ body {
    max-width: 841px;
 }
 
-.block2 {
-   font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
-   font-size: 20px;
-   line-height: 36px;
-   color: #273d46;
-   border: 1px solid #000;
-   max-width: 850px;
-   margin: 0px auto;
-}
-.block2__1 {
-   background-color: #385e6d;
-   color: #ffffff;
-   position: fixed;
-   z-index: 1;
-}
-.block2__2 {
-   background-color: aquamarine;
-   position: relative;
-   top: 10px;
-   left: 0px;
-}
-.block2__3 {
-   background-color: blueviolet;
-   position: absolute;
-}
